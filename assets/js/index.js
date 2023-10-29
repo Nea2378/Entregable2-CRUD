@@ -38,7 +38,7 @@ function guardarPelicula() {
         estreno, 
         genero, 
         imagen, 
-        sinopsis
+        sinopsi
         );
         console.log(peliculas);
     
