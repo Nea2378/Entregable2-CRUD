@@ -55,7 +55,7 @@ function guardarPelicula() {
     localStorage.setItem("Peliculas", JSON.stringify(peliculas));
     mostrarPeliculas();
     
-    alert("Pelicula guardada");
+    alert("Prelicula guardada");
     console.log("Entro funcion guardar pelicula");
 }
 function eliminarPelicula(index) {
@@ -64,6 +64,7 @@ function eliminarPelicula(index) {
     localStorage.setItem("peliculas", JSON.stringify(peliculas));
     mostrarPeliculas();
     alert("Pelicula eliminada");
+    
 }
 
 
