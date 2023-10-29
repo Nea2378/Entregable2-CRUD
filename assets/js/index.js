@@ -133,7 +133,7 @@ function borrarTodo() {
     localStorage.clear();
     peliculas = [];
     mostrarPeliculas();
-    alert("Peliculas orradas");
+    alert("Peliculas borradas");
 }
 
 function limpiarFormularioPeliculas() {
