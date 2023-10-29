@@ -36,7 +36,7 @@ function guardarPelicula() {
     let pelicula = new Pelicula( 
         titulo, 
         estreno, 
-        gener, 
+        genero, 
         imagen, 
         sinopsis
         );
